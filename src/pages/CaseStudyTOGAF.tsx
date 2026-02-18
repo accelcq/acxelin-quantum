@@ -69,7 +69,7 @@ const CaseStudyTOGAF = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <div className="inline-flex items-center bg-green-50 text-green-600 px-4 py-2 rounded-full mb-6">
+              <div className="inline-flex items-center bg-gray-100 text-gray-600 px-4 py-2 rounded-full mb-6">
                 <Building size={20} className="mr-2" />
                 <span className="font-medium">Live Architecture Demo</span>
               </div>
@@ -81,9 +81,9 @@ const CaseStudyTOGAF = () => {
                 Explore a comprehensive enterprise architecture implementation for financial institutions. Our demo showcases TOGAF 9.2 principles applied to create a secure, scalable, and compliant financial exchange platform.
               </p>
               
-              <div className="bg-green-50 border border-green-100 rounded-lg p-6 mb-6">
-                <h3 className="font-semibold text-green-900 mb-2">Architecture Highlights</h3>
-                <ul className="space-y-2 text-green-800">
+              <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6">
+                <h3 className="font-semibold text-gray-900 mb-2">Architecture Highlights</h3>
+                <ul className="space-y-2 text-gray-700">
                   <li>• TOGAF ADM (Architecture Development Method) implementation</li>
                   <li>• Four-layer enterprise architecture model</li>
                   <li>• Regulatory compliance and risk management</li>
@@ -110,7 +110,7 @@ const CaseStudyTOGAF = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-8 shadow-lg">
+              <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-8 shadow-lg">
                 <h4 className="font-semibold mb-4 text-center">Financial Exchange Dashboard</h4>
                 
                 <div className="grid grid-cols-2 gap-4 mb-6">
@@ -119,7 +119,7 @@ const CaseStudyTOGAF = () => {
                       <div className="text-sm text-gray-500 mb-1">{metric.metric}</div>
                       <div className="flex items-center justify-between">
                         <span className="font-bold text-lg">{metric.value}</span>
-                        <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
+                        <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
                           {metric.change}
                         </span>
                       </div>
@@ -136,7 +136,7 @@ const CaseStudyTOGAF = () => {
                           <div className="font-medium text-sm">{layer.layer}</div>
                           <div className="text-xs text-gray-500">{layer.components} components</div>
                         </div>
-                        <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
+                        <span className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">
                           {layer.status}
                         </span>
                       </div>
@@ -170,12 +170,12 @@ const CaseStudyTOGAF = () => {
               >
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-lg font-semibold">{layer.layer}</h3>
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                  <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
                 </div>
                 <p className="text-gray-600 mb-4">{layer.description}</p>
                 <div className="flex justify-between items-center text-sm">
                   <span className="text-gray-500">{layer.components} Components</span>
-                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">
+                  <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
                     {layer.status}
                   </span>
                 </div>
@@ -216,20 +216,20 @@ const CaseStudyTOGAF = () => {
             ].map((feature, index) => (
               <motion.div 
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-md border border-green-100"
+                className="bg-white p-6 rounded-lg shadow-md border border-gray-200"
                 variants={fadeIn}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
               >
-                <div className="text-green-600 mb-4">{feature.icon}</div>
+                <div className="text-gray-600 mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-semibold mb-3">{feature.title}</h3>
                 <p className="text-gray-600 mb-4">{feature.description}</p>
                 <ul className="space-y-2">
                   {feature.features.map((item, idx) => (
                     <li key={idx} className="flex items-center text-sm">
-                      <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                      <div className="w-2 h-2 bg-gray-400 rounded-full mr-2"></div>
                       <span className="text-gray-700">{item}</span>
                     </li>
                   ))}
@@ -280,7 +280,7 @@ const CaseStudyTOGAF = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <div className="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-sm font-bold">
+                <div className="w-16 h-16 bg-gray-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-sm font-bold">
                   {phase.phase}
                 </div>
                 <h3 className="text-lg font-semibold mb-3">{phase.title}</h3>
@@ -292,7 +292,7 @@ const CaseStudyTOGAF = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-green-600 text-white">
+      <section className="section bg-gray-700 text-white">
         <div className="container-custom text-center">
           <motion.div
             variants={fadeIn}
@@ -304,15 +304,15 @@ const CaseStudyTOGAF = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Ready to Transform Your Enterprise Architecture?
             </h2>
-            <p className="text-green-100 max-w-3xl mx-auto mb-8 text-lg">
+            <p className="text-gray-200 max-w-3xl mx-auto mb-8 text-lg">
               Experience the power of TOGAF-based enterprise architecture with our Financial Exchange Platform demo. See how proper architecture governance can transform your organization's capabilities.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="btn bg-white text-green-600 hover:bg-gray-100">
+              <button className="btn bg-white text-gray-600 hover:bg-gray-100">
                 <ExternalLink className="mr-2" size={18} />
                 Explore Demo Platform
               </button>
-              <Link to="/contact" className="btn bg-green-500 text-white hover:bg-green-400">
+              <Link to="/contact" className="btn bg-gray-500 text-white hover:bg-gray-400">
                 Schedule Architecture Review
               </Link>
             </div>
