@@ -182,8 +182,8 @@ Regards
                 value: "Milpitas, CA",
                 subtitle: "691 S Milpitas Blvd, Ste 217",
                 href: "#map",
-                gradient: "from-purple-500 to-purple-600",
-                bgGradient: "from-purple-50 to-purple-100"
+                gradient: "from-amber-500 to-amber-600",
+                bgGradient: "from-amber-50 to-amber-100"
               },
               {
                 icon: <Calendar size={28} />,

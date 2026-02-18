@@ -81,7 +81,7 @@ const CaseStudyQuantum = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-8 shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg p-8 shadow-lg">
                 <h4 className="font-semibold mb-4 text-center">Quantum Predictions vs Market</h4>
                 
                 <div className="space-y-4">
@@ -106,7 +106,7 @@ const CaseStudyQuantum = () => {
                         </div>
                         <div>
                           <span className="text-gray-500">Confidence:</span>
-                          <div className="font-semibold text-purple-600">{stock.confidence}</div>
+                          <div className="font-semibold text-amber-600">{stock.confidence}</div>
                         </div>
                       </div>
                     </div>
@@ -115,7 +115,7 @@ const CaseStudyQuantum = () => {
                 
                 <div className="mt-6 text-center">
                   <div className="inline-flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
-                    <Zap className="text-purple-600 mr-2" size={16} />
+                    <Zap className="text-amber-600 mr-2" size={16} />
                     <span className="text-sm font-medium">Quantum Circuit: 12 Qubits Active</span>
                   </div>
                 </div>
@@ -126,7 +126,7 @@ const CaseStudyQuantum = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-purple-600 text-white">
+      <section className="section bg-amber-500 text-white">
         <div className="container-custom text-center">
           <motion.div
             variants={fadeIn}
@@ -138,7 +138,7 @@ const CaseStudyQuantum = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Ready to Harness Quantum Advantage?
             </h2>
-            <p className="text-purple-100 max-w-3xl mx-auto mb-8 text-lg">
+            <p className="text-amber-100 max-w-3xl mx-auto mb-8 text-lg">
               Try our live QuantumStock AI demo featuring 94.7% accuracy and 0.3-second predictions. Experience firsthand how quantum computing is revolutionizing financial forecasting and trading strategies.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
@@ -146,14 +146,14 @@ const CaseStudyQuantum = () => {
                 href="https://quantum-demo-frontend.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="btn bg-white text-purple-600 hover:bg-gray-100"
+                className="btn bg-white text-amber-600 hover:bg-gray-100"
               >
                 <ExternalLink className="mr-2" size={18} />
                 Try Quantum Demo
               </a>
               <Link 
                 to="/contact?subject=Quantum Computing&template=quantum-computing#contact-form" 
-                className="btn bg-purple-500 text-white hover:bg-purple-400"
+                className="btn bg-amber-400 text-white hover:bg-amber-300"
               >
                 Schedule Consultation
               </Link>

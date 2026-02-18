@@ -29,8 +29,8 @@ const Services = () => {
       icon: <Cpu size={32} />,
       link: '/services/quantum-computing',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      color: 'bg-purple-50 border-purple-100',
-      iconColor: 'text-purple-600'
+      color: 'bg-amber-50 border-amber-100',
+      iconColor: 'text-amber-600'
     },
     {
       title: 'Enterprise Architecture',

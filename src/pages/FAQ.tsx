@@ -59,8 +59,8 @@ const FAQ = () => {
       description: "Learn why Acxelin Quantum excels in quantum algorithm development, optimization, and implementation for various industry applications.",
       icon: <Cpu size={48} />,
       link: "/faq/quantum-algorithms",
-      color: "bg-purple-50 text-purple-600", 
-      hoverColor: "hover:bg-purple-100",
+      color: "bg-amber-50 text-amber-600",
+      hoverColor: "hover:bg-amber-100",
       questions: [
         "Advanced Quantum Expertise",
         "Industry-Specific Applications",

@@ -65,7 +65,7 @@ const CaseStudyQuantumComputing = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <div className="inline-flex items-center bg-purple-50 text-purple-600 px-4 py-2 rounded-full mb-6">
+              <div className="inline-flex items-center bg-amber-50 text-amber-600 px-4 py-2 rounded-full mb-6">
                 <Cpu size={20} className="mr-2" />
                 <span className="font-medium">Live Quantum Demo</span>
               </div>
@@ -77,9 +77,9 @@ const CaseStudyQuantumComputing = () => {
                 Experience the power of quantum machine learning in financial forecasting. Our demo leverages quantum algorithms to analyze market patterns, trading volumes, and historical data to predict stock prices with unprecedented accuracy.
               </p>
               
-              <div className="bg-purple-50 border border-purple-100 rounded-lg p-6 mb-6">
-                <h3 className="font-semibold text-purple-900 mb-2">Demo Capabilities</h3>
-                <ul className="space-y-2 text-purple-800">
+              <div className="bg-amber-50 border border-amber-100 rounded-lg p-6 mb-6">
+                <h3 className="font-semibold text-amber-900 mb-2">Demo Capabilities</h3>
+                <ul className="space-y-2 text-amber-800">
                   <li>• Multi-dimensional quantum feature encoding</li>
                   <li>• Quantum variational circuits for pattern recognition</li>
                   <li>• Real-time market data integration</li>
@@ -109,7 +109,7 @@ const CaseStudyQuantumComputing = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-8 shadow-lg">
+              <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg p-8 shadow-lg">
                 <h4 className="font-semibold mb-4 text-center">Quantum Predictions vs Market</h4>
                 
                 <div className="space-y-4">
@@ -134,7 +134,7 @@ const CaseStudyQuantumComputing = () => {
                         </div>
                         <div>
                           <span className="text-gray-500">Confidence:</span>
-                          <div className="font-semibold text-purple-600">{stock.confidence}</div>
+                          <div className="font-semibold text-amber-600">{stock.confidence}</div>
                         </div>
                       </div>
                     </div>
@@ -143,7 +143,7 @@ const CaseStudyQuantumComputing = () => {
                 
                 <div className="mt-6 text-center">
                   <div className="inline-flex items-center bg-white px-4 py-2 rounded-lg shadow-sm">
-                    <Zap className="text-purple-600 mr-2" size={16} />
+                    <Zap className="text-amber-600 mr-2" size={16} />
                     <span className="text-sm font-medium">Quantum Circuit: 12 Qubits Active</span>
                   </div>
                 </div>
@@ -192,14 +192,14 @@ const CaseStudyQuantumComputing = () => {
             </motion.div>
             
             <motion.div 
-              className="bg-purple-600 text-white p-6 rounded-lg shadow-md relative overflow-hidden"
+              className="bg-amber-500 text-white p-6 rounded-lg shadow-md relative overflow-hidden"
               variants={fadeIn}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500 rounded-full -translate-y-16 translate-x-16 opacity-20"></div>
+              <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400 rounded-full -translate-y-16 translate-x-16 opacity-20"></div>
               <h3 className="text-xl font-semibold mb-4 relative z-10">Quantum Computing</h3>
               <div className="space-y-3 relative z-10">
                 <div className="flex justify-between">
@@ -265,14 +265,14 @@ const CaseStudyQuantumComputing = () => {
             {features.map((feature, index) => (
               <motion.div 
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-md border border-purple-100"
+                className="bg-white p-6 rounded-lg shadow-md border border-amber-100"
                 variants={fadeIn}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <div className="text-purple-600 mb-4">{feature.icon}</div>
+                <div className="text-amber-600 mb-4">{feature.icon}</div>
                 <h3 className="text-lg font-semibold mb-3">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
               </motion.div>
@@ -341,7 +341,7 @@ const CaseStudyQuantumComputing = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-purple-600 text-white">
+      <section className="section bg-amber-500 text-white">
         <div className="container-custom text-center">
           <motion.div
             variants={fadeIn}
@@ -353,17 +353,17 @@ const CaseStudyQuantumComputing = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Ready to Harness Quantum Advantage?
             </h2>
-            <p className="text-purple-100 max-w-3xl mx-auto mb-8 text-lg">
+            <p className="text-amber-100 max-w-3xl mx-auto mb-8 text-lg">
               Experience the revolutionary power of quantum computing in financial modeling. See how our quantum algorithms can transform your prediction accuracy and trading strategies.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="btn bg-white text-purple-600 hover:bg-gray-100">
+              <button className="btn bg-white text-amber-600 hover:bg-gray-100">
                 <ExternalLink className="mr-2" size={18} />
                 Try Quantum Demo
               </button>
               <Link 
                 to="/contact?subject=Quantum Computing&template=quantum-computing#contact-form" 
-                className="btn bg-purple-500 text-white hover:bg-purple-400"
+                className="btn bg-amber-400 text-white hover:bg-amber-300"
               >
                 Schedule Consultation
               </Link>

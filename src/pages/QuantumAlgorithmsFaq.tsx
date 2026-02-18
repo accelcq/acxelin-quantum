@@ -509,7 +509,7 @@ const QuantumAlgorithmsFaq = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600">
+      <section className="py-16 bg-gradient-to-r from-amber-500 to-amber-400">
         <div className="container-custom text-center">
           <motion.div
             initial="hidden"
